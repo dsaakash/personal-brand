@@ -53,6 +53,8 @@ a:focus {
     -moz-transition: ease-out 0.3s;
 }
 
+
+
 .btn:hover {
     color: #EF233C;
     background: transparent;
@@ -1677,5 +1679,20 @@ a:focus {
     }
 }
 
+
+
+.floating-buttons {
+    position: fixed;
+    left: 30px;
+    /* Keep it on the left */
+    bottom: 80px;
+    /* Adjusts positioning */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* Adds spacing between buttons */
+    z-index: 9999;
+    /* Keeps it on top */
+}
 
 
